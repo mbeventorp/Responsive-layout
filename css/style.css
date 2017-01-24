@@ -21,7 +21,7 @@ header {
 	width: 100%;
 	margin: 0;
 	text-align: center;
-	color: #686868;
+	color: grey;
 }
 
 h1 {
@@ -43,7 +43,7 @@ h3 {
 
 p {
 	line-height: 1.5rem;
-	color: #686868;
+	color: grey;
 	margin: 0 auto;
 }
 
@@ -137,18 +137,21 @@ ul {
 .contact {
 	width: 90%;
 	margin: 0 auto;
+	margin-bottom: 20px;
 	padding: 40px 0;
 	text-align: center;
 	border-bottom: 1px solid lightgrey;
 }
 
-.contact h2 {
+.contact h2,
+.contact-text {
 	padding-bottom: 20px;
 }
 
-.contact-text {
-	margin: 0px auto;
-	padding-bottom: 20px;
+.contact a {
+	font-weight: bold;
+	color: grey;
+	margin-left: 20px;
 }
 
 .footer-links {
@@ -156,18 +159,22 @@ ul {
 }
 
 .footer {
-	font-weight: bold;
 	border: 1px solid red;
+	padding-bottom: 40px;
+}
+
+.footer p{
+	font-weight: bold;
+	text-align: left;
+	margin-left: 1em;
 	float: left;
 }
 
-.top {
-	text-align: right;
+.footer a{
 	text-transform: uppercase;
-	color: #686868;
-	float: right;
-	padding: 0px 20px 0px 0px;
-	border: 1px solid red;
+	color: grey;
+	text-align: right;
+	margin-right: 1em;
 }
 
 .number, 
