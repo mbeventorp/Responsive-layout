@@ -101,6 +101,10 @@ ul {
 	font-weight: bold;
 }
 
+.main-nav a {
+		color: grey;
+	}
+
 .about {
 	width: 90%;
 	text-align: center;
@@ -121,7 +125,6 @@ ul {
 }
 
 .portfolio h2 {
-	background: white;
 	padding: 60px 0;
 }
 
@@ -159,7 +162,7 @@ ul {
 
 .footer .student-name {
 	font-weight: bold;
-	text-align: left;
+	
 	float: left;
 	margin-left: 5%;
 	padding-bottom: 20px;
@@ -185,6 +188,11 @@ ul {
 	.header {
 		margin-top: 3%;
 	}
+
+	.main-nav a {
+		color: grey;
+	}
+
 
 	.main-nav li {
 		display: inline-block;
@@ -235,7 +243,7 @@ ul {
 		text-align: right;
 		float: right;
 		display: inline-block;
-		margin-right: 5%;
+		margin-right: 4%;
 		margin-top: -6px;
 		width: 40%;
 		padding-bottom: 30px;
@@ -251,12 +259,18 @@ ul {
 
 	.header h1 {
 		float: left;
-		margin: 0 80px 0 80px;
+		margin-left: 5%;
 	}
 
-	.main-nav li {
+	.main-nav {
+		width: 50%;
+		margin-right: 5%;
+		text-align: right;
 		float: right;
-		display: inline-block;
+	}
+
+	.main-nav a {
+		color: grey;
 	}
 
 	.portfolio {
